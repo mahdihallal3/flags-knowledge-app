@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    tools:context=".TestFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/counter_text_view"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/flag_image_view"
+        android:layout_marginTop="40dp"
+        android:fontFamily="serif-monospace"
+        android:textSize="100sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="italic"
+        android:textColor="@color/yellow">
+
+    </TextView>
+
+
+    <ImageView
+        android:id="@+id/flag_image_view"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="20dp"
+        android:layout_margin="30dp"
+        android:contentDescription="@string/flag_image_description">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/flag_name_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/flag_image_view"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_marginBottom="30dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/yellow"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/flag_name_text_view"
+        android:layout_toStartOf="@+id/flag_name_text_view"
+        android:id="@+id/true_button"
+        android:background="@color/lime"
+        android:text="@string/true_button">
+
+    </Button>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/red"
+        android:id="@+id/false_button"
+        android:layout_below="@+id/flag_name_text_view"
+        android:layout_toEndOf="@+id/flag_name_text_view"
+        android:text="@string/flase_button"
+        >
+
+    </Button>
+
+
+</RelativeLayout>

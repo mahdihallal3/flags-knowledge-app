@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Mystery Flag</string>
+    <string name="congratulations_message">Congratulations On Taking The Test!</string>
+    <string name="welcome_message">TEST YOUR KNOWLEDGE WITH FLAGS!</string>
+    <string name="start_test_button"> START CHALLENGE </string>
+    <string name="flag_image_description">Flag Image</string>
+    <string name="logo_description">Flag Logo</string>
+    <string name="action_home">Home</string>
+    <string name="action_scores">Scores</string>
+    <string name="true_button">TRUE</string>
+    <string name="flase_button">FALSE</string>
+    <string name="flage_name">...</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_test5">TestActivity5</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>
